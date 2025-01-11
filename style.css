@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+.content_form {
+  width: 50%;
+  padding: 10px;
+}
+
+.content_list {
+  width: 50%;
+  padding: 10px;
+}
