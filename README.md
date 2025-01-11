@@ -52,9 +52,9 @@ mysql -u root -p multilang_db < multilang_db_dump.sql
 
 1. Start the PHP built-in server:
 ```bash
-php -S localhost:8000
+php -S localhost:6969
 ```
-2. Open your web browser and navigate to: `http://localhost:8000/index.php`
+2. Open your web browser and navigate to: `http://localhost:6969/index.php`
 
 3. You should see the multilingual content displayed on the page. 
 ![Served File](./serve-file.png)
