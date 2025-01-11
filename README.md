@@ -42,10 +42,10 @@ DB_USERNAME=root
 DB_PASSWORD=yourpassword
 DB_DATABASE=multilang_db
 ```
-3. Import the database schema and data from the `multilang_db_dump.sql` file: 
+3. Import the database schema and data from the `assets/multilang_db_dump.sql` file: 
 
 ```bash
-mysql -u root -p multilang_db < multilang_db_dump.sql
+mysql -u root -p multilang_db < assets/multilang_db_dump.sql
 ```
 
 ## Usage
@@ -57,10 +57,10 @@ php -S localhost:6969
 2. Open your web browser and navigate to: `http://localhost:6969/index.php`
 
 3. You should see the multilingual content displayed on the page. 
-![Served File](./serve-file.png)
+![Served File](./assets/serve-file.png)
 
 ## Database Dump
 
-The `multilang_db_dump.sql` file contains the SQL statements to recreate the
+The `assets/multilang_db_dump.sql` file contains the SQL statements to recreate the
 database and its contents. You can use this file to set up the database on your
 local environment.
